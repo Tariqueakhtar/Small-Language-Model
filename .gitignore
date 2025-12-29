@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+env/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model/data artifacts (DON'T commit)
+backend/*.pt
+backend/*.bin
+*.pt
+*.bin
+
+# Hugging Face cache
+.cache/
+**/.cache/
+
+# Streamlit
+.streamlit/
+
+# Node (if you created Next.js at any point)
+node_modules/
+.next/
+out/
+
+# OS
+.DS_Store
+Thumbs.db
+#parameter file due to large size
+backend/best_model_params.pt
+*.pt
+*.bin

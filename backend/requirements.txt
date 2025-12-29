@@ -1,0 +1,20 @@
+torch>=2.0.0
+numpy>=1.23
+tiktoken>=0.5.0
+
+fastapi>=0.100
+uvicorn>=0.23
+pydantic>=2.0
+sse-starlette>=1.6.5
+streamlit 
+requests
+tqdm>=4.65
+
+# For Jupyter notebooks
+jupyter
+ipywidgets
+
+# For dataset preparation (not needed for inference)
+datasets
+huggingface-hub
+pyarrow
